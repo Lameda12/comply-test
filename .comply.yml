@@ -1,0 +1,4 @@
+rules:
+  - id: no-console-log
+    pattern: "console\\.log"
+    message: Remove console.log before merging
