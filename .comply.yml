@@ -1,6 +1,6 @@
 rules:
   - id: no-console-log
-    type: pattern
+    type: regex
     description: No console.log statements allowed
     pattern: "console\\.log"
     message: Remove console.log before merging
