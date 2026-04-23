@@ -1,4 +1,5 @@
 rules:
   - id: no-console-log
+    description: No console.log statements allowed
     pattern: "console\\.log"
     message: Remove console.log before merging
